@@ -31,7 +31,7 @@ function App() {
         </ul>
       </nav>
       <main>
-        <section ref={homeRef}><Home onProjectsClick={() => scrollToSection(projectsRef)} /></section>
+        <section ref={homeRef}><Home /></section>
         <section ref={aboutRef}><About /></section>
         <section ref={skillsRef}><Skills /></section>
         <section ref={projectsRef}><Projects /></section>
